@@ -1,4 +1,3 @@
-
 function towerOfHanoi(n, source, destination, auxiliary) {
     if (n === 1) {
         console.log(`Move disk 1 from ${source} to ${destination}`);
@@ -12,3 +11,5 @@ function towerOfHanoi(n, source, destination, auxiliary) {
 // Example usage:
 const numberOfDisks = 3;  // Change this value as needed
 towerOfHanoi(numberOfDisks, 'A', 'C', 'B');
+
+module.exports = { towerOfHanoi }; // Exporting the function
