@@ -1,0 +1,16 @@
+{
+  "name": "unit-5-hanoi-assignment",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of the Tower of Hanoi for the UBC Software Development Unit 5 Assignment.",
+  "main": "hanoi.js",
+  "scripts": {
+    "start": "node hanoi.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Kyle Adam",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
